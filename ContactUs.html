@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media screen and (max-width: 767px) {
+        }
+    </style>
+
+    <title>ERamen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="promotion.css">
+    
+    <link rel="stylesheet" href="path/to/swiper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="path/to/swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="images/ERamen Logo 1.png"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Promotion.html">Promotion</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-contactus">
+            <h1>Contact Us</h1>
+        </div>
+
+        <form class="form">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" id="phonenumber">
+            <span id="phonenumber-error" class="error-valid"></span>
+
+            <label>Which one do you prefer ?</label>
+            <label for="ramen">Ramen</label>
+            <input type="radio" name="prefer" id="ramen">
+            <label for="dryramen">Dryamen</label>
+            <input type="radio" name="prefer" id="dryramen">
+
+            <label for="agree">Do you agree to receive<br>newsletter ?</label>
+            <input type="checkbox" id="agree">
+
+            <button type="button" id="done-button">Done</button>
+        </form>
+
+    </section>
+    <!-- <form class="form">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email" id="email">
+
+        <label for="phonenumber">Phone Number</label>
+        <input type="text" placeholder="Phone Number" id="phonenumber">
+
+        <label>Which one do you prefer ?</label>
+
+    </form> -->
+
+    <section>
+        <div class="footer">
+            <h1>ERamen</h1>
+            <img src="images/ERamen logo footer.png" alt="">
+            <ul class="footer">
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#PrivasiPolicy">Privasi Policy</a></li>
+                <li><a href="#Delivery">Delivery</a></li>
+            </ul>
+            <h1>Thank You!</h1>
+        </div>
+    </section>
+
+    <!-- <script src="path/to/swiper.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>

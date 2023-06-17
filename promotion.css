@@ -1,0 +1,187 @@
+/* =========== Sunday Funday ===========*/
+
+.promo-container{
+    width: 100%;
+    height: 630px;
+    position: relative;
+}
+
+.promo-main{
+    width: 100%;
+    height: 772px;
+    position: absolute;
+    display: flex;
+    /* left: 0px;
+    top: 0px; */
+    background-image: url(images/bgpromopage.png);
+    background-size: cover;
+    z-index: -1;
+}
+
+.text-promo h1{
+    position: absolute;
+    /* left: 121px;
+    top: 40px; */
+    padding-top: 150px;
+    padding-left: 50px;
+    width: auto;
+    height: fit-content;
+    font-size: 48px;
+    z-index: -1;
+    color: var(--warm-white-color);
+}
+
+.text-promo h2{
+    position: absolute;
+    /* left: 121px;
+    top: 40px; */
+    padding-top: 300px;
+    padding-left: 50px;
+    width: auto;
+    height: fit-content;
+    font-size: 36px;
+    z-index: -1;
+    color: var(--warm-white-color);
+}
+
+.text-promo p{
+    position: absolute;
+    /* left: 121px;
+    top: 40px; */
+    padding-top: 500px;
+    padding-left: 50px;
+    width: auto;
+    height: fit-content;
+    font-size: 24px;
+    z-index: -1;
+    color: var(--warm-white-color);
+}
+
+.text-promo small{
+    position: absolute;
+    /* left: 121px;
+    top: 40px; */
+    padding-top: 700px;
+    padding-left: 50px;
+    width: auto;
+    height: fit-content;
+    font-size: 15px;
+    z-index: -1;
+    color: var(--warm-white-color);
+}
+
+/* =========== Other Promos ===========*/
+
+/* =========== BCA Promo ===========*/
+
+.promo-container2{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.other-promo{
+    width: 100%;
+    height: 852px;
+    position: absolute;
+    display: flex;
+    /* left: 0px;
+    top: 0px; */
+    background-image: url(images/bgpromopage1.png);
+    background-size: cover;
+    z-index: -1;
+}
+
+.promo-BCA{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    /* left: 0px;
+    top: 0px; */
+    z-index: -1;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.promo-BCA img{
+    margin: 0;
+    padding: 0;
+}
+
+.animation{
+    transition: transform 0.3s;
+}
+
+.animation:hover{
+    transform: scale(1.2);
+}
+
+.BCA{
+    position: absolute;
+    right: 0px;
+    top: 281px; 
+    width: 1000px;
+    height: 94px;
+    background-color: var(--warm-brown-color);
+    opacity: 0.8;
+    z-index: -1;
+    /* padding-left: 500px;
+    padding-top: 250px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.BCA p{
+    width: fit-content;
+    height: fit-content;
+    color: var(--warm-white-color);
+    font-size: 24px;
+    /* transform: translate(-50%, -50%);  */
+    margin: 2rem auto 2rem;
+    z-index: -1;
+}
+
+/* =========== OVO Promo ===========*/
+
+.promo-OVO{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    /* left: 0px;
+    top: 0px; */
+    z-index: -1;
+    padding-top: 500px;
+    padding-left: 1100px;
+}
+
+.promo-OVO img{
+    margin: 0;
+    padding: 0;
+}
+
+.OVO{
+    position: absolute;
+    left: 0px;
+    top: 600px; 
+    width: 1000px;
+    height: 94px;
+    background-color: var(--warm-brown-color);
+    opacity: 0.8;
+    z-index: -1;
+    /* padding-left: 500px;
+    padding-top: 250px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.OVO p{
+    width: fit-content;
+    height: fit-content;
+    color: var(--warm-white-color);
+    font-size: 24px;
+    /* transform: translate(-50%, -50%);  */
+    margin: 2rem auto 2rem;
+    z-index: -1;
+}
